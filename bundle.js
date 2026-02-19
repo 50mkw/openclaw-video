@@ -2,15 +2,17 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 5922
+/***/ 8676
 (__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
 
 
-// EXTERNAL MODULE: ./node_modules/remotion/dist/esm/index.mjs
-var esm = __webpack_require__(3947);
-// EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__(6540);
-;// ./src/EmployeeSystemVideo.tsx
+// UNUSED EXPORTS: RemotionVideo
+
+// EXTERNAL MODULE: ./openclaw-remotion-tutorial/node_modules/remotion/dist/esm/index.mjs
+var esm = __webpack_require__(5956);
+// EXTERNAL MODULE: ./openclaw-remotion-tutorial/node_modules/react/index.js
+var react = __webpack_require__(5451);
+;// ./openclaw-remotion-tutorial/src/EmployeeSystemVideo.tsx
 
 
 const Opening = () => {
@@ -121,15 +123,28 @@ const EmployeeSystemVideo = () => {
 };
 /* harmony default export */ const src_EmployeeSystemVideo = ((/* unused pure expression or super */ null && (EmployeeSystemVideo)));
 
-;// ./src/index.tsx
+;// ./openclaw-remotion-tutorial/src/index.tsx
 
 
-(0,esm.registerRoot)(EmployeeSystemVideo);
+const RemotionVideo = () => {
+  return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(
+    esm.Composition,
+    {
+      id: "EmployeeSystemVideo",
+      component: EmployeeSystemVideo,
+      durationInFrames: 660,
+      fps: 30,
+      width: 1280,
+      height: 720
+    }
+  ));
+};
+(0,esm.registerRoot)(RemotionVideo);
 
 
 /***/ },
 
-/***/ 6507
+/***/ 7786
 (__unused_webpack_module, exports) {
 
 var __webpack_unused_export__;
@@ -278,11 +293,11 @@ exports.d = injectCSS;
 
 /***/ },
 
-/***/ 3610
+/***/ 5391
 (__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
 
 var react__WEBPACK_IMPORTED_MODULE_0___namespace_cache;
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6540);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5451);
 
 
 if (typeof globalThis === 'undefined') {
@@ -294,7 +309,7 @@ if (typeof globalThis === 'undefined') {
 
 /***/ },
 
-/***/ 1247
+/***/ 532
 (__unused_webpack_module, exports, __webpack_require__) {
 
 /**
@@ -311,9 +326,9 @@ if (typeof globalThis === 'undefined') {
  Modernizr 3.0.0pre (Custom Build) | MIT
 */
 
-var Scheduler = __webpack_require__(9982),
-  React = __webpack_require__(6540),
-  ReactDOM = __webpack_require__(961);
+var Scheduler = __webpack_require__(7565),
+  React = __webpack_require__(5451),
+  ReactDOM = __webpack_require__(8742);
 function formatProdErrorMessage(code) {
   var url = "https://react.dev/errors/" + code;
   if (1 < arguments.length) {
@@ -16350,7 +16365,7 @@ exports.version = "19.2.4";
 
 /***/ },
 
-/***/ 6221
+/***/ 9608
 (__unused_webpack_module, exports, __webpack_require__) {
 
 /**
@@ -16364,7 +16379,7 @@ exports.version = "19.2.4";
  */
 
 
-var React = __webpack_require__(6540);
+var React = __webpack_require__(5451);
 function formatProdErrorMessage(code) {
   var url = "https://react.dev/errors/" + code;
   if (1 < arguments.length) {
@@ -16567,7 +16582,7 @@ exports.version = "19.2.4";
 
 /***/ },
 
-/***/ 5338
+/***/ 4815
 (module, __unused_webpack_exports, __webpack_require__) {
 
 
@@ -16596,14 +16611,14 @@ if (true) {
   // DCE check should happen before ReactDOM bundle executes so that
   // DevTools can report bad minification during injection.
   checkDCE();
-  module.exports = __webpack_require__(1247);
+  module.exports = __webpack_require__(532);
 } else // removed by dead control flow
 {}
 
 
 /***/ },
 
-/***/ 961
+/***/ 8742
 (module, __unused_webpack_exports, __webpack_require__) {
 
 
@@ -16632,14 +16647,14 @@ if (true) {
   // DCE check should happen before ReactDOM bundle executes so that
   // DevTools can report bad minification during injection.
   checkDCE();
-  module.exports = __webpack_require__(6221);
+  module.exports = __webpack_require__(9608);
 } else // removed by dead control flow
 {}
 
 
 /***/ },
 
-/***/ 9698
+/***/ 2503
 (__unused_webpack_module, exports) {
 
 /**
@@ -16680,7 +16695,7 @@ exports.jsxs = jsxProd;
 
 /***/ },
 
-/***/ 9869
+/***/ 6808
 (__unused_webpack_module, exports) {
 
 /**
@@ -17229,33 +17244,33 @@ exports.version = "19.2.4";
 
 /***/ },
 
-/***/ 6540
+/***/ 5451
 (module, __unused_webpack_exports, __webpack_require__) {
 
 
 
 if (true) {
-  module.exports = __webpack_require__(9869);
+  module.exports = __webpack_require__(6808);
 } else // removed by dead control flow
 {}
 
 
 /***/ },
 
-/***/ 4848
+/***/ 9195
 (module, __unused_webpack_exports, __webpack_require__) {
 
 
 
 if (true) {
-  module.exports = __webpack_require__(9698);
+  module.exports = __webpack_require__(2503);
 } else // removed by dead control flow
 {}
 
 
 /***/ },
 
-/***/ 4477
+/***/ 5392
 (__unused_webpack_module, exports) {
 
 /**
@@ -17602,28 +17617,28 @@ exports.unstable_wrapCallback = function (callback) {
 
 /***/ },
 
-/***/ 9982
+/***/ 7565
 (module, __unused_webpack_exports, __webpack_require__) {
 
 
 
 if (true) {
-  module.exports = __webpack_require__(4477);
+  module.exports = __webpack_require__(5392);
 } else // removed by dead control flow
 {}
 
 
 /***/ },
 
-/***/ 3482
+/***/ 8909
 (__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
 /* unused harmony export setBundleModeAndUpdate */
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6540);
-/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5338);
-/* harmony import */ var remotion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3947);
-/* harmony import */ var remotion_no_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9382);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4848);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5451);
+/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4815);
+/* harmony import */ var remotion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5956);
+/* harmony import */ var remotion_no_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6263);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9195);
 
 
 // src/renderEntry.tsx
@@ -17823,7 +17838,7 @@ var renderContent = (Root) => {
     renderToDOM(/* @__PURE__ */ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
       children: /* @__PURE__ */ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(DelayedSpinner, {})
     }));
-    Promise.all(/* import() */[__webpack_require__.e(822), __webpack_require__.e(845)]).then(__webpack_require__.bind(__webpack_require__, 4822)).then(({ StudioInternals }) => {
+    Promise.all(/* import() */[__webpack_require__.e(447), __webpack_require__.e(920)]).then(__webpack_require__.bind(__webpack_require__, 6447)).then(({ StudioInternals }) => {
       window.remotion_isStudio = true;
       window.remotion_isReadOnlyStudio = true;
       window.remotion_inputProps = "{}";
@@ -17967,7 +17982,7 @@ if (typeof window !== "undefined") {
 
 /***/ },
 
-/***/ 3947
+/***/ 5956
 (__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18017,9 +18032,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   useVideoConfig: () => (/* binding */ useVideoConfig),
 /* harmony export */   watchStaticFile: () => (/* binding */ watchStaticFile)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6540);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4848);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(961);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5451);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9195);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8742);
 var __defProp = Object.defineProperty;
 var __export = (target, all) => {
   for (var name in all)
@@ -26195,7 +26210,7 @@ addSequenceStackTraces(Sequence);
 
 /***/ },
 
-/***/ 9382
+/***/ 6263
 (__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -27027,7 +27042,7 @@ var NoReactInternals = {
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "openclaw-remotion-tutorial:";
+/******/ 		// data-webpack is not used as build has no uniqueName
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -27036,7 +27051,7 @@ var NoReactInternals = {
 /******/ 				var scripts = document.getElementsByTagName("script");
 /******/ 				for(var i = 0; i < scripts.length; i++) {
 /******/ 					var s = scripts[i];
-/******/ 					if(s.getAttribute("src") == url || s.getAttribute("data-webpack") == dataWebpackPrefix + key) { script = s; break; }
+/******/ 					if(s.getAttribute("src") == url) { script = s; break; }
 /******/ 				}
 /******/ 			}
 /******/ 			if(!script) {
@@ -27047,7 +27062,7 @@ var NoReactInternals = {
 /******/ 				if (__webpack_require__.nc) {
 /******/ 					script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 				}
-/******/ 				script.setAttribute("data-webpack", dataWebpackPrefix + key);
+/******/ 		
 /******/ 		
 /******/ 				script.src = url;
 /******/ 			}
@@ -27188,7 +27203,7 @@ var NoReactInternals = {
 /******/ 		
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkopenclaw_remotion_tutorial"] = self["webpackChunkopenclaw_remotion_tutorial"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunk"] = self["webpackChunk"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
@@ -27198,10 +27213,10 @@ var NoReactInternals = {
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	__webpack_require__(6507);
-/******/ 	__webpack_require__(5922);
-/******/ 	__webpack_require__(3610);
-/******/ 	var __webpack_exports__ = __webpack_require__(3482);
+/******/ 	__webpack_require__(7786);
+/******/ 	__webpack_require__(8676);
+/******/ 	__webpack_require__(5391);
+/******/ 	var __webpack_exports__ = __webpack_require__(8909);
 /******/ 	
 /******/ })()
 ;
